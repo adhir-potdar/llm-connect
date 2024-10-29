@@ -4,7 +4,7 @@ import time
 from openai import OpenAI
 
 # Set your OpenAI API key here
-isana_api_key = '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'
+isana_api_key = 'isana_api_key'
 
 client = OpenAI(
     # This is the default and can be omitted
