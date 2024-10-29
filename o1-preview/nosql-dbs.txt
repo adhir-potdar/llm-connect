@@ -1,0 +1,24 @@
+Full response received 8.16 seconds after request
+Full conversation received: There are several NoSQL databases that are well-suited for storing JSON documents. Here are some of the most popular options:
+
+1. **MongoDB**: MongoDB is one of the most popular NoSQL databases and is specifically designed to store JSON-like documents (BSON). It provides rich querying capabilities and supports indexing, aggregation, and replication.
+
+2. **Couchbase**: Couchbase is a distributed NoSQL database that supports JSON documents. It offers features like full-text search, analytics, and mobile synchronization, making it suitable for a variety of applications.
+
+3. **CouchDB**: Apache CouchDB is another database that stores data in JSON format. It uses a schema-free data model and provides a RESTful HTTP API for accessing the data. CouchDB is known for its replication and synchronization capabilities.
+
+4. **Amazon DynamoDB**: DynamoDB is a fully managed NoSQL database service provided by AWS. It supports storing data in JSON format and offers features like automatic scaling, backup, and restore.
+
+5. **Azure Cosmos DB**: Cosmos DB is a globally distributed, multi-model database service by Microsoft Azure. It supports multiple data models, including document-based storage with JSON. It provides features like global distribution, horizontal scaling, and comprehensive SLAs.
+
+6. **Elasticsearch**: While primarily known as a search engine, Elasticsearch can store JSON documents and provides powerful search and analytics capabilities. It is often used for log and event data analysis.
+
+7. **RethinkDB**: RethinkDB is an open-source, distributed database that stores JSON documents and offers real-time data push capabilities. It is designed to make building real-time applications easier.
+
+8. **ArangoDB**: ArangoDB is a multi-model database that supports document, graph, and key/value data models. It can store JSON documents and provides a rich query language called AQL.
+
+9. **OrientDB**: OrientDB is a multi-model database that supports graph, document, object, and key/value models. It can store JSON documents and is known for its flexibility and performance.
+
+10. **Firebase Realtime Database / Firestore**: Part of Google's Firebase platform, these databases store data in JSON format and are optimized for real-time synchronization and offline capabilities, especially in mobile and web applications.
+
+These databases offer various features and capabilities, so the choice of which to use depends on the specific requirements of your application, such as scalability, real-time capabilities, ease of use, and integration with other systems.
