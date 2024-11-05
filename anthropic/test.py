@@ -1,7 +1,7 @@
 import anthropic
 
 # Set your Anthropic API key here
-isana_api_key = 'isana_api_key'
+isana_api_key = 'isana-api-key'
 
 # Create an Anthropic client
 client = anthropic.Anthropic(api_key=isana_api_key)
@@ -26,7 +26,8 @@ messages = [
 response_message = ''
 with client.messages.stream(
 #            model="claude-3-5-sonnet-20240620",
-            model="claude-3-5-sonnet-20241022",
+#            model="claude-3-5-sonnet-20241022",
+            model="claude-3-5-haiku-20241022",
             max_tokens=4096,
             messages=messages,
             system="You are an experienced data engineer.",
