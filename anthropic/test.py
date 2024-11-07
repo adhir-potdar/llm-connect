@@ -26,8 +26,8 @@ messages = [
 response_message = ''
 with client.messages.stream(
 #            model="claude-3-5-sonnet-20240620",
-#            model="claude-3-5-sonnet-20241022",
-            model="claude-3-5-haiku-20241022",
+            model="claude-3-5-sonnet-20241022",
+#            model="claude-3-5-haiku-20241022",
             max_tokens=4096,
             messages=messages,
             system="You are an experienced data engineer.",
