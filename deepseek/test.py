@@ -26,7 +26,7 @@ response = client.chat.completions.create(
 #    model="deepseek-chat",
     model="deepseek-coder",
 #    stop=["\n", "End of response"],
-    temperature=0.2,
+    temperature=0.5,
     stream=True
 )
 
